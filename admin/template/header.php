@@ -7,10 +7,12 @@ require_once __DIR__ . '/../../classes/User.php';
 $user = new User;
 if (!$user->isAdmin()) {
     die('you are not allowed to access this page');
+
 }
 ?>
 <!doctype html>
 <html lang="en">
+<!-- fdsfdf -->
 
 <head>
     <meta charset="utf-8" />
